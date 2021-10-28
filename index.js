@@ -1,3 +1,8 @@
-console.log("PROYECTO INICIADO..")
-console.log("Levantar paredes..")
-console.log("Agregar puerta..")
+const colors = require("colors")
+const paredes = require("./src/paredes");
+const puerta = require("./src/puerta");
+
+
+console.log("PROYECTO INICIADO..".red);
+paredes();
+puerta();
